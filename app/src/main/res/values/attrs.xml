@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="myTitleLayout">
+        <attr name="title_text" format="string"/>
+        <attr name="title_textColor" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="myListViewItemForCheck">
+        <attr name="listview_item_name" format="string"/>
+        <attr name="listview_item_param" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="HistoryCheckItem">
+        <attr name="check_item_plan_date" format="string"/><!--计划执行日期-->
+        <attr name="check_item_real_date" format="string"/><!--实际执行日期-->
+        <attr name="check_item_judge" format="string"/><!--用来记录及显示该项是否已检查过-->
+    </declare-styleable>
+</resources>

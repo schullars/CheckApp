@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Maintain</string>
+
+    <string name="my_menu_item_text_home">主页</string>
+    <string name="my_menu_item_text_info">查询</string>
+    <string name="my_menu_item_text_setting">设置</string>
+    <string name="my_menu_item_text_admin">管理</string>
+
+    <string name="logo_text">迅效自动化 终端演示APP</string>
+    <string name="item_one">点检</string>
+    <string name="item_two">保养</string>
+    <string name="machine_name">设备名称</string>
+    <string name="machine_code">设备编号</string>
+    <string name="history_record">历史记录</string>
+    <string name="scan_QR_code">扫码输入</string>
+    <string name="auto_generate">自动生成</string>
+    <string name="unknown">未知</string>
+    <string name="check_item">检测项</string>
+    <string name="check_params">检测要求</string>
+    <string name="important_level">重要程度</string>
+    <string name="check_result">检测结果</string>
+    <string name="qualified">合格</string>
+    <string name="unqualified">不合格</string>
+    <string name="remarks">备注</string>
+
+    <string name="check_plan_date">计划日期</string>
+    <string name="check_real_data">实际日期</string>
+    <string name="checked">已检查</string><!--用于history_check_item中展示item是否已经执行过检查-->
+    <string name="uncheck">未检查</string><!--用于history_check_item中展示item是否已经执行过检查-->
+    <string name="history_check_plan">检查计划</string>
+    <string name="scanner">扫描</string>
+</resources>

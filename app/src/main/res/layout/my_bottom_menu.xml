@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary">
+
+    <com.xunxiaozdh.mycontrol.MyMenuItemLayout
+        android:id="@+id/menu_home"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+    </com.xunxiaozdh.mycontrol.MyMenuItemLayout>
+
+    <com.xunxiaozdh.mycontrol.MyMenuItemLayout
+        android:id="@+id/menu_info"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+    </com.xunxiaozdh.mycontrol.MyMenuItemLayout>
+
+    <com.xunxiaozdh.mycontrol.MyMenuItemLayout
+        android:id="@+id/menu_setting"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+    </com.xunxiaozdh.mycontrol.MyMenuItemLayout>
+
+    <com.xunxiaozdh.mycontrol.MyMenuItemLayout
+        android:id="@+id/menu_admin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+    </com.xunxiaozdh.mycontrol.MyMenuItemLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xunxiaozdh.maintain.ScannerActivity"
+
+    android:alpha="0.7"
+    >
+    <com.xunxiaozdh.mycontrol.MyTitleLayout
+        android:id="@+id/my_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/my_body"
+        app:title_text = "@string/scanner">
+
+    </com.xunxiaozdh.mycontrol.MyTitleLayout>
+
+    <EditText
+        android:id="@+id/bar_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/scan_image"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="40dp"
+        android:hint="ID Number"
+        android:focusedByDefault="true"/>
+
+    <ImageView
+        android:id="@+id/scan_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/qr_code"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:scaleType="fitXY"
+        android:focusable="false"
+        />
+    <ImageView
+        android:id="@+id/scan_line"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/scan_line"
+        app:layout_constraintTop_toTopOf="@+id/scan_image"
+        app:layout_constraintLeft_toLeftOf="@+id/scan_image"
+        android:focusable="false"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/scan_image"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:text="请扫描员工ID卡条码或二维码"
+        android:textSize="20sp"
+        android:layout_marginTop="8dp"
+        android:focusable="false"/>
+
+
+</android.support.constraint.ConstraintLayout>
